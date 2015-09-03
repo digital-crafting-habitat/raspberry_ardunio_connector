@@ -1,6 +1,5 @@
 import json
 
-with open('config.json') as json_data_file:
+with open('../resources/config.json') as json_data_file:
     data = json.load(json_data_file)
 print(data)
-json.dump(data, outfile)
