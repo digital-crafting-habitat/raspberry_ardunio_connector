@@ -1,0 +1,14 @@
+redis:
+    host: 85.214.235.74 
+    user: root
+    passwd: my_secret_password
+arduino:
+    values:
+        - value:
+              type: analog
+              pin: 1
+              redis-value: test_value_1
+        - value:
+              type: digital
+              pin: 2
+              redis-value: test_value_2
